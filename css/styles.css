@@ -111,6 +111,7 @@ h3 {
   background-color: var(--light-mode-color);
 }
 .team-title {
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team-item {
@@ -152,6 +153,7 @@ h3 {
   line-height: 1.2;
   color: var(--primary-dark-color);
   letter-spacing: 0.02em;
+  text-align: left;
 }
 .example-text {
   color: var(--slate-text-color);
