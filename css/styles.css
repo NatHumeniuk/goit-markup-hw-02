@@ -1,0 +1,127 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-dark-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --primary-brand-color: #4d5ae5;
+  --pressed-ocean-color: #404bbf;
+  --success-green-color: #31d0aa;
+  --slate-text-color: #434455;
+  --helper-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-mode-color: #f4f4fd;
+}
+.body {
+  font-family: var(--primary-font);
+  background-color: var(--primary-white-color);
+  color: var(--primary-dark-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+}
+ul {
+  list-style-type: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.first-part-logo {
+  color: var(--primary-brand-color);
+}
+.last-part-logo {
+  color: var(--primary-dark-color);
+}
+.nav .nav-list a {
+  color: var(--primary-dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.nav .nav-list a:active {
+  color: var(--pressed-ocean-color);
+  text-decoration: underline;
+}
+.contact-list a {
+  color: var(--slate-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.contact-list a:hover,
+.contact-list a:focus {
+  color: var(--pressed-ocean-color);
+}
+.introduction {
+  background-color: var(--primary-dark-color);
+  width: 1440px;
+  height: 600px;
+}
+.introduction h1 {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.main-btn {
+  width: 169px;
+  height: 56px;
+  background-color: var(--primary-brand-color);
+  color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+}
+.main-btn:hover {
+  background-color: var(--pressed-ocean-color);
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.72px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+.advantage-list p {
+  color: var(--slate-text-color);
+}
+.team {
+  background-color: var(--light-mode-color);
+}
+.team-list p {
+  color: var(--slate-text-color);
+}
+.footer-sect {
+  background-color: var(--primary-dark-color);
+}
+.footer-sect p {
+  color: var(--light-mode-color);
+}
+.footer-last-part-logo {
+  color: var(--light-mode-color);
+}
+.filters-list .filter-btn {
+  color: var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.96px;
+  background-color: var(--light-mode-color);
+  cursor: pointer;
+}
+.filters-list .filter-btn:active {
+  color: var(--primary-white-color);
+  background-color: var(--pressed-ocean-color);
+}
