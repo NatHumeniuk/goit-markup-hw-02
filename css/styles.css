@@ -36,6 +36,9 @@
 .list {
   list-style: none;
 }
+.contacts {
+  font-style: normal;
+}
 .link.nav-item {
   color: var(--primary-dark-color);
   font-weight: 500;
@@ -43,13 +46,13 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link.nav-item:active {
+.link.nav-item:hover,
+.link.nav-item:focus {
   color: var(--pressed-ocean-color);
   text-decoration: underline;
 }
 .link.contact-item {
   color: var(--slate-text-color);
-  font-style: normal;
 }
 .link.contact-item:hover,
 .link.contact-item:focus {
@@ -63,11 +66,10 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .main-btn {
-  width: 169px;
-  height: 56px;
   background-color: var(--primary-brand-color);
   font-family: var(--primary-font);
   color: var(--primary-white-color);
@@ -77,6 +79,7 @@
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.main-btn:hover,
 .main-btn:focus {
   background-color: var(--pressed-ocean-color);
 }
@@ -95,6 +98,9 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
 }
+.advantage-title {
+  letter-spacing: 0.02em;
+}
 .advantage-text {
   color: var(--slate-text-color);
 }
@@ -109,6 +115,9 @@ h3 {
 }
 .team-item {
   background-color: var(--primary-white-color);
+}
+.team-item-name {
+  letter-spacing: 0.02em;
 }
 .team-item-text {
   color: var(--slate-text-color);
@@ -142,6 +151,7 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   color: var(--primary-dark-color);
+  letter-spacing: 0.02em;
 }
 .example-text {
   color: var(--slate-text-color);
