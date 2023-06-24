@@ -13,94 +13,104 @@
 .body {
   font-family: var(--primary-font);
   background-color: var(--primary-white-color);
-  color: var(--primary-dark-color);
+  color: var(--slate-text-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.48px;
+  letter-spacing: 0.02em;
 }
-ul {
-  list-style-type: none;
+.link {
+  text-decoration: none;
 }
-.logo {
+.link.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  text-decoration: none;
-}
-.first-part-logo {
+  letter-spacing: 0.03em;
   color: var(--primary-brand-color);
 }
 .last-part-logo {
   color: var(--primary-dark-color);
 }
-.nav .nav-list a {
+.list {
+  list-style: none;
+}
+.link.nav-item {
   color: var(--primary-dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
+  letter-spacing: 0.02em;
 }
-.nav .nav-list a:active {
+.link.nav-item:active {
   color: var(--pressed-ocean-color);
   text-decoration: underline;
 }
-.contact-list a {
+.link.contact-item {
   color: var(--slate-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
+  font-style: normal;
 }
-.contact-list a:hover,
-.contact-list a:focus {
+.link.contact-item:hover,
+.link.contact-item:focus {
   color: var(--pressed-ocean-color);
 }
 .introduction {
   background-color: var(--primary-dark-color);
-  width: 1440px;
-  height: 600px;
 }
-.introduction h1 {
+.main-title {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  text-align: center;
 }
 .main-btn {
   width: 169px;
   height: 56px;
   background-color: var(--primary-brand-color);
+  font-family: var(--primary-font);
   color: var(--primary-white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
-.main-btn:hover {
+.main-btn:focus {
   background-color: var(--pressed-ocean-color);
+}
+h2,
+h3 {
+  color: var(--primary-dark-color);
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
 }
 h3 {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
 }
-.advantage-list p {
+.advantage-text {
   color: var(--slate-text-color);
+}
+.doing-title {
+  text-transform: capitalize;
 }
 .team {
   background-color: var(--light-mode-color);
 }
-.team-list p {
+.team-title {
+  text-transform: capitalize;
+}
+.team-item {
+  background-color: var(--primary-white-color);
+}
+.team-item-text {
   color: var(--slate-text-color);
 }
 .footer-sect {
@@ -109,19 +119,30 @@ h3 {
 .footer-sect p {
   color: var(--light-mode-color);
 }
-.footer-last-part-logo {
+.footer-sect .last-part-logo {
   color: var(--light-mode-color);
 }
-.filters-list .filter-btn {
+.filter-btn {
+  font-family: var(--primary-font);
   color: var(--primary-brand-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.96px;
+  letter-spacing: 0.04em;
   background-color: var(--light-mode-color);
   cursor: pointer;
 }
-.filters-list .filter-btn:active {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--pressed-ocean-color);
+}
+.example-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-dark-color);
+}
+.example-text {
+  color: var(--slate-text-color);
 }
